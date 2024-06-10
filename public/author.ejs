@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Quote Generator</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/search-author">Search Author</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Search For Author :3</h1>
+        <form id="quoteForm" method="POST" action="./generateAuthor">
+            <input name="author" type="text" placeholder="Enter author" required>
+            <button type="submit">Generate</button>
+        </form>
+    </div>
+</body>
+</html>
